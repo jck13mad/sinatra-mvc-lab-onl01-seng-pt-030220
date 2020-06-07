@@ -8,7 +8,7 @@ class PigLatinizer
     if word.downcase.index(/[aeiou]/) == 0 
       word + "way"
     else 
-      vowel_index = word.
+      vowel_index = word.index(/[aeiou]/)
   
   
   
