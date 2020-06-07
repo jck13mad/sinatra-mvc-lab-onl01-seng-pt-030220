@@ -17,7 +17,7 @@ class PigLatinizer
   def piglatinize(phrase)
     word_array = phrase.split(" ")
     
-    word_array.collect {|word| piglatinize
+    word_array.collect {|word| piglatinize_word
     
   
   
