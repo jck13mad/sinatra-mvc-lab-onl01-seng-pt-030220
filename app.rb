@@ -9,6 +9,7 @@ class App < Sinatra::Base
   
   post '/piglatinizer' do 
     new_piglatinizer = PigLatinizer.new 
+    
   
   
   
