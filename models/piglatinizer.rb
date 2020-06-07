@@ -9,7 +9,7 @@ class PigLatinizer
       word + "way"
     else 
       vowel_index = word.index(/[aeiou]/)
-      front_end = word.slice!(0...)
+      front_end = word.slice!(0..vowel_index-1)
   
   
   
