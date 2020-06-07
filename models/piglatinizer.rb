@@ -2,7 +2,9 @@ require 'pry'
 
 class PigLatinizer
   
-  attr_accessor 
+  attr_accessor :piglatinized_phrase
+  
+  
   
   
   
