@@ -10,7 +10,8 @@ class PigLatinizer
     else 
       vowel_index = word.index(/[aeiou]/)
       front_end = word.slice!(0..vowel_index-1)
-      word.front
+      word.front_end + ay 
+    end
   
   
   
