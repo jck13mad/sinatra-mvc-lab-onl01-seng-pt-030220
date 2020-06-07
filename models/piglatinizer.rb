@@ -1,3 +1,9 @@
 require 'pry'
 
-class PigLatinize
+class PigLatinizer
+  
+  
+  
+  
+  
+end
