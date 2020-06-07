@@ -9,7 +9,7 @@ class App < Sinatra::Base
   
   post '/piglatinizer' do 
     new_piglatinizer = PigLatinizer.new 
-    @putinay_input = new_piglatinizer.piglatinize
+    @putinay_input = new_piglatinizer.piglatinize(params[:])
   
   
   
