@@ -15,7 +15,7 @@ class PigLatinizer
   end
   
   def piglatinize(phrase)
-    
+    word_array = 
     
   
   
