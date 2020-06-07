@@ -17,6 +17,8 @@ class PigLatinizer
   def piglatinize(phrase)
     word_array = phrase.split(" ")
     
+    word_array.collect
+    
   
   
   
